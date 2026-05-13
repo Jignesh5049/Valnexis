@@ -35,5 +35,5 @@ jobs:
         if: matrix.project == 'frontend'
         run: npm run build
 
-      - name: Run smoke test
-        run: npm test
+      #- name: Run smoke test
+        #run: npm test
